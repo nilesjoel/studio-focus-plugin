@@ -21,8 +21,7 @@
     "profile": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "plugin::studio-profile.profile",
-      "inversedBy": "entries"
+      "target": "plugin::studio-profile.profile"
     }
   }
 }
