@@ -1,0 +1,50 @@
+{
+  "name": "@studiosymmetries/studio-focus",
+  "version": "0.0.1",
+  "description": "Note-taking and tagging app for focused writing.",
+  "strapi": {
+    "name": "Studio Focus",
+    "description": "Focused writing plugin for Strapi",
+    "kind": "plugin",
+    "displayName": "Studio Focus"
+  },
+  "dependencies": {
+    "@strapi/design-system": "^1.6.3",
+    "@strapi/helper-plugin": "^4.6.0",
+    "@strapi/icons": "^1.6.3",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6",
+    "@studiosymmetries/studio-profile" : "^0.0.2"
+  },
+  "author": {
+    "name": "@nilesjoel"
+  },
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "keywords": [
+    "notes",
+    "tagging",
+    "writing",
+    "productivity",
+    "organization"
+  ],
+  "license": "MIT"
+}

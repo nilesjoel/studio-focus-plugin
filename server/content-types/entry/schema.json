@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "entries",
+  "info": {
+    "singularName": "entry",
+    "pluralName": "entries",
+    "displayName": "Entry",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "profile": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::studio-profile.profile",
+      "inversedBy": "entries"
+    }
+  }
+}
