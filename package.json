@@ -1,6 +1,6 @@
 {
   "name": "@studiosymmetries/studio-focus",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Note-taking and tagging app for focused writing.",
   "strapi": {
     "name": "studio-focus",
