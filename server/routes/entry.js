@@ -9,39 +9,32 @@ module.exports = [
         path: '/entries',
         handler: 'entryController.updateEntry',
         config: {
-          policies: [],
-        },
+          auth: false
+      }
       },
       {
         method: 'PUT',
         path: '/entries',
         handler: 'entryController.createEntry',
         config: {
-          policies: [],
-        },
+          auth: false
+      }
       },
-      {
-      method: 'GET',
-      path: '/entries',
-      handler: 'entryController.index',
-      config: {
-        policies: [],
-      },
-    },
+
     {
-        method: 'GET',
+        method: 'POST',
         path: '/entries/all',
         handler: 'entryController.findAllEntries',
         config: {
-          policies: [],
-        },
+          auth: false
+      }
       },
     {
-        method: 'GET',
+        method: 'POST',
         path: '/entries/profile',
         handler: 'entryController.findEntriesByProfile',
         config: {
-          policies: [],
-        },
+          auth: false
+      }
       },
   ];

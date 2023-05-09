@@ -22,6 +22,16 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "plugin::studio-profile.profile"
+    },
+    "tagSet": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::studio-profile.tag-set"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::studio-profile.tag"
     }
   }
 }
