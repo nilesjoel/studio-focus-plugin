@@ -1,6 +1,6 @@
 {
   "name": "@studiosymmetries/studio-focus",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Note-taking and tagging app for focused writing.",
   "strapi": {
     "name": "studio-focus",
@@ -21,7 +21,6 @@
     "styled-components": "^5.3.6"
   },
   "peerDependencies": {
-    "@studiosymmetries/studio-profile": "^0.0.8",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.3.4",
